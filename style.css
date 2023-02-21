@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+}
+body {
+
+    font-family: 'Montserrat', sans-serif;
+    width: 1728px;
+
+    margin: 0 auto;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    
+}
+.menu__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0 22px;
+    
+}
+.logo {
+    margin-right: 585px;
+}
+.nav {
+    display: flex;
+    list-style: none;
+    font-size: 19px;
+    font-weight: 400;
+    padding-left: 0;
+    
+  
+}
+a.nav__link {
+    margin-right: 55px;
+    text-decoration: none;
+    color: black;
+}
+
+a.btn {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    border: 1px solid black;
+    padding: 18px 42px;
+    color: black;
+
+}
+
+.select {
+    background-color: yellow;
+    width: 1728px;
+}
+.select__car {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 88px;
+}
+
+
+a.btn__select {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 14px 32px;
+    background-color: white;
+    text-transform: capitalize;
+
+}
+.contact__select {
+    display: flex;
+}
+
+a.whatsapp {
+    display: flex;
+    height: 42px;
+    margin-right: 56px;
+}
+
+
+/* Services
+============*/
+
+.services__home {
+    text-align: center;
+    margin: 95px 0 55px;
+}
+
+h2.title {
+    margin-top: 0;
+    margin-bottom: 70px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 66px;
+    text-transform: capitalize;
+}
+
+a.btn__service {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid rgba(233, 231, 67, 1);
+    border-radius: 40px;
+    padding: 14px 32px;
+    background-color: rgba(245, 245, 245, 1);
+    text-transform: capitalize;
+}
+
+.services__img {
+    margin-top: 80px;
+}
+
+/* service partners
+===================*/
+
+.service__partners {
+    height: 430px;
+    background-color: rgba(244, 244, 244, 1);
+}
+.service__partners
+.container {
+  padding-top: 70px;
+}
+
+.partners__title {
+    text-transform: capitalize;
+    font-size: 46px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+
+
+.partners {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 125px;
+}
+
+.partners__item {
+    margin-right: 90px;
+}
+.partners__item:last-child {
+    margin-right: 0;
+}
+
+/*service about
+================*/
+
+.about__service {
+    text-align: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+.about__service-img {
+    margin: auto;
+    position: relative;
+}
+h2.suptitle__about {
+    font-weight: 500;
+    margin-top: -270px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 46px;
+    text-transform: capitalize;
+}
+h3.about__title {
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+
+}
+h2.about__text:before {
+content: "-";
+margin-right: 5px;
+height: 2px;
+width: 14px;
+
+}
+
+h2.about__text {
+    margin-left: 15px;
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.questions {
+    display: flex;
+    margin-bottom: 125px;
+}
+
+.list__questions {
+    width: 33.333%;
+    padding: 0 40px;
+}
+
+h3.questions__number {
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 60px;
+    text-transform: capitalize;
+}
+
+h4.questions__title {
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 22px;
+    margin-top: 0;
+    text-transform: capitalize;
+}
+
+
+
+
+.questions__text {
+    width: 406px;
+    font-size: 26px;
+    font-weight: 300;
+    text-transform: capitalize;
+}

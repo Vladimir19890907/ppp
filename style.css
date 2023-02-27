@@ -284,3 +284,67 @@ h2.company__title {
     margin-top: 100px;
     text-align: center;
 }
+/* Service */
+
+
+
+.service { 
+    margin-top: 170px;
+    
+
+}
+.service__title {
+font-size: 46px;
+font-weight: 500;
+text-align: center;
+margin-bottom: 88px;
+text-transform: capitalize;
+
+}
+
+.services__item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service__list {
+    width: 342px;
+    height: 378px;
+    border: 1px solid rgba(33, 53, 70, 0.4);
+    margin-bottom: 26px;
+    margin-right: auto;
+}
+
+.service__icon {
+    padding-left: 40px;
+    padding-top: 52px;
+
+}
+.service__number {
+    font-size: 32px;
+    font-weight: 400;
+    color: rgba(229, 229, 229, 1);
+    padding-top: 52px;
+    padding-right: 30px;
+    margin: 0 auto;
+    float: right;
+}
+.service__subtitle {
+    font-size: 32px;
+    font-weight: 400;
+    padding-left: 40px;
+    height: 60px;
+    width: 260px;
+}
+.btn__grey {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 13px 53px;
+    background-color: rgba(245, 245, 245, 1);
+    border: 2px solid rgba(233, 231, 67, 1);
+    border-radius: 10px;
+    margin-left: 40px;
+}
+

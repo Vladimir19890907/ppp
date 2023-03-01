@@ -290,8 +290,7 @@ h2.company__title {
 
 .service { 
     margin-top: 170px;
-    
-
+    margin-bottom: 114px;
 }
 .service__title {
 font-size: 46px;
@@ -336,6 +335,10 @@ text-transform: capitalize;
     height: 60px;
     width: 260px;
 }
+.button__level {
+    margin-top: 45px;
+}
+
 .btn__grey {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
@@ -346,5 +349,66 @@ text-transform: capitalize;
     border: 2px solid rgba(233, 231, 67, 1);
     border-radius: 10px;
     margin-left: 40px;
+    color: black;
 }
 
+/* trademark */
+
+.trademark {
+    background-color: rgba(240, 242, 244, 1);
+    padding-top: 164px;
+    padding-bottom: 155px;
+}
+
+h3.trademark__title {
+    font-size: 46px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 88px;
+    margin-top: 0;
+}
+.trademark__inner {
+    display: flex;
+    flex-wrap: wrap;
+}
+.trademark__block {
+    width: 33.33%;
+    text-align: center;
+}
+
+.trademark__white-block {
+    background-color: white;
+    width: 464px;
+    height: 256px;
+    position: absolute;
+}
+
+.trademark__img {
+    position: relative;
+    bottom: 0;
+    top: 66px;
+}
+
+.text__trademark {
+    padding: 0 40px;
+    text-transform: capitalize;
+    margin-top: 35px;
+    text-align: start;
+
+}
+
+h2.trademark__suptitle {
+    padding-top: 13px;
+    padding-bottom: 12px;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+h4.trademark__text {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 auto;
+    
+}

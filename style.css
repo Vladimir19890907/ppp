@@ -762,6 +762,7 @@ max-width: 970px;
     @media (max-width: 991px) {
 .container {
     max-width: 750px;
+    width: 100%;
 }
         /* Nav */
         .nav {
@@ -782,6 +783,11 @@ max-width: 970px;
         .partners {
             width: 50%;
         }
+        
+        .list__questions {
+            width: 100%;
+            padding-right: 20px;
+        }
     }
 
     @media (max-width: 767px) {
@@ -794,7 +800,14 @@ max-width: 970px;
         h2.title {
                 font-size: 30px;
             }
-
+            .list__questions {
+                width: 100%;
+                padding-right: 20px;
+            }
+            .trademark__block {
+                width: 100%;
+                margin-bottom: 30px;
+            }
             
         }
     
